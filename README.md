@@ -15,7 +15,7 @@
 * **Deux modes de vitesse :** *Graduelle* (accélération progressive à chaque réussite) ou *Aléatoire* (nouvelle vitesse tirée à chaque coup).
 * **Gestion des vies et record global :** le joueur dispose de **3 vies**. En fin de partie, le score et le détail des touches sont automatiquement envoyés à l'API, qui conserve le meilleur record mondial.
 
-![Aperçu du mode Solo](frontend/src/assets/modesolo.png)
+![Aperçu du mode Solo](mini-game/frontend/src/assets/modesolo.png)
 
 ### Mode Duel Local 1v1 (`ECM · Duel Local 1v1`)
 * **Tir à la corde visuel :** deux joueurs s'affrontent sur le même écran autour d'une barre commune rayée bleu/rouge animée en temps réel.
@@ -25,7 +25,7 @@
 * **Poussée et combos :** chaque zone réussie repousse la barre vers l'adversaire (**Jaune +2**, **Orange +4**, **Rouge +7**, **Blanc +25**, avec un **bonus +3** tous les 3 combos). Le premier qui remplit entièrement la barre remporte le duel.
 * **Pseudos modifiables & historique :** les noms des deux joueurs sont éditables directement au clic au-dessus de chaque cercle. Dès la fin du duel, le résultat est enregistré en base et affiché dans l'historique en bas de l'interface.
 
-![Aperçu du duel 1v1](frontend/src/assets/mode1v1.png)
+![Aperçu du duel 1v1](mini-game/frontend/src/assets/mode1v1.png)
 
 ---
 
